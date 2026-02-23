@@ -10,8 +10,12 @@ See the notebook index:
 
 ## Scope
 - Part I: Introduction (Chapter 1 starting with AFM as a force sensor)
+  
+### Notebook 1 — Force–Deflection and Noise Simulator
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch01/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
+)
 
 - Part II: Instrumentation (later)
 - Part III: Force Spectroscopy and Nanomechanics (later)
