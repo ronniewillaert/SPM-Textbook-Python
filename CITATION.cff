@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use these notebooks, please cite the accompanying textbook and this repository."
+title: "Scanning Probe Microscopy — Python Notebooks"
+type: software
+authors:
+  - family-names: "Willaert"
+    given-names: "Ronnie"
+repository-code: "https://github.com/ronniewillaert/SPM-Textbook-Python"
+license: MIT
