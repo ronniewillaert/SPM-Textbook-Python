@@ -18,5 +18,6 @@ Each notebook is designed as a standalone, executable module including:
 - Skills: units, pN–nN–µN regimes, thermal noise intuition  
 - Outputs: force vs deflection plots, noise estimates, sanity checks
 
-🔵 Open in Google Colab  
-(Will be activated after the notebook file is uploaded.)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch01/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
+)
