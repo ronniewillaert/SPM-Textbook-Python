@@ -39,7 +39,7 @@ Concept:
 - Tabor parameter
 - Energy dissipation
 
-[Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch02/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb)
+[Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch02_tip_sample_interactions/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb)
 
 ---
 
