@@ -23,7 +23,7 @@ Concept:
 - Thermal noise
 - Force sensitivity
 
-[Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/Force_Deflection_Noise_Simulator.ipynb)
+[Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch01/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb)
 
 ---
 
