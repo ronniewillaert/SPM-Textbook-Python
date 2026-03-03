@@ -1,24 +1,64 @@
 # Scanning Probe Microscopy — Python Notebooks (Google Colab)
 
-This repository contains interactive Python notebooks accompanying the textbook **Scanning Probe Microscopy**.
+This repository contains interactive Python notebooks accompanying the textbook  
+**Scanning Probe Microscopy — From Fundamentals to Quantitative Nanomechanics and Single-Cell Analysis**.
 
-The notebooks translate textbook concepts into reproducible calculations, parameter studies, and visualizations. Each notebook is self-contained and designed to run in **Google Colab** directly in the browser (no local installation required).
+The notebooks translate textbook concepts into reproducible simulations, parameter studies, and visualization tools.
 
-## Start here
-See the notebook index:
-- `notebooks/README.md`
+Each notebook:
 
-## Scope
-- Part I: Introduction (Chapter 1 starting with AFM as a force sensor)
-  
-### Notebook 1 — Force–Deflection and Noise Simulator
+- is self-contained,
+- runs directly in Google Colab (no local installation required),
+- includes conceptual reminders, parameter exploration, and sanity checks.
+
+---
+
+## Structure
+
+### Part I — Foundations of SPM
+
+#### Notebook 1 — Force–Deflection and Noise Simulator  
+(Chapter 1: AFM as a Force Sensor)
+
+Concepts:
+- Hooke’s law in AFM
+- nN–µN force regimes
+- Thermal noise intuition
+
+Outputs:
+- Force vs deflection plots
+- Noise estimates
+- Order-of-magnitude reasoning
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch01/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/Force_Deflection_Noise_Simulator.ipynb
 )
 
-- Part II: Instrumentation (later)
-- Part III: Force Spectroscopy and Nanomechanics (later)
+---
+
+#### Notebook 2 — AFM Force–Distance Simulation  
+(Chapter 2: Tip–Sample Interactions)
+
+Concepts:
+- Lennard–Jones interaction
+- Jump-to-contact instability
+- Hertz contact mechanics
+- JKR and DMT adhesive models
+- Tabor parameter
+- Hysteresis and energy dissipation
+
+Outputs:
+- Approach/retraction force–distance curves
+- Pull-off force
+- Young’s modulus extraction
+- Dissipated energy estimation
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
+)
+
+---
 
 ## License
+
 MIT License (see `LICENSE`).
