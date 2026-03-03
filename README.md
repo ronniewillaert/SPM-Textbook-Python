@@ -54,7 +54,7 @@ Outputs:
 - Dissipated energy estimation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch02/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
 )
 
 ---
