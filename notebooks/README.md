@@ -1,23 +1,46 @@
 # Python Notebooks — Index (Google Colab)
 
-This repository contains interactive Python notebooks accompanying the textbook **Scanning Probe Microscopy**.
+This folder contains interactive Python notebooks accompanying the textbook  
+**Scanning Probe Microscopy — From Fundamentals to Quantitative Nanomechanics and Single-Cell Analysis**.
 
-Each notebook is designed as a standalone, executable module including:
-- brief conceptual reminders,
+Each notebook is designed as a standalone executable module including:
+
+- conceptual reminders,
 - parameterized models,
-- visualizations,
+- visualization tools,
 - unit checks and sanity checks.
 
 ---
 
-## Part I — Introduction
+# Part I — Foundations
 
-### Chapter 1 — Why Scanning Probe Microscopy?
-**Notebook 1: Force–Deflection and Noise Simulator (AFM as a force sensor)**  
-- Concept: Hooke’s law in AFM and order-of-magnitude reasoning  
-- Skills: units, pN–nN–µN regimes, thermal noise intuition  
-- Outputs: force vs deflection plots, noise estimates, sanity checks
+## Chapter 1 — AFM as a Force Sensor
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch01/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
-)
+### Notebook 1 — Force–Deflection and Noise Simulator
+
+Concept:
+- Hooke’s law
+- Thermal noise
+- Force sensitivity
+
+[Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/Force_Deflection_Noise_Simulator.ipynb)
+
+---
+
+## Chapter 2 — Physical Principles of Tip–Sample Interactions
+
+### Notebook 2 — AFM Force–Distance Simulation
+
+Concept:
+- Lennard–Jones interaction
+- Jump-to-contact
+- Hertz model
+- JKR vs DMT
+- Tabor parameter
+- Energy dissipation
+
+[Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-I-introduction/ch02/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb)
+
+---
+
+More notebooks will be added progressively as the textbook develops.
