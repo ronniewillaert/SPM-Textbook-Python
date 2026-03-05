@@ -1,5 +1,6 @@
 name: Update repository tree
-
+permissions:
+  contents: write
 on:
   push:
     branches: [ main ]
