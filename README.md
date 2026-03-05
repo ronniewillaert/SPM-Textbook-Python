@@ -94,4 +94,32 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
 
 ---
 
-# Repository Structure
+## Repository Structure
+
+```
+SPM-Textbook-Python
+│
+├── binder
+│   └── requirements.txt
+│
+├── notebooks
+│   ├── part-01-foundations
+│   │   ├── ch01_force_sensor
+│   │   │   ├── SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
+│   │   │   └── README.md
+│   │   │
+│   │   ├── ch02_tip_sample_interactions
+│   │   │   ├── AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
+│   │   │   └── README.md
+│   │   │
+│   │   └── ch03_afm_instrumentation
+│   │       ├── SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
+│   │       └── README.md
+│   │
+│   ├── utils
+│   └── README.md
+│
+├── LICENSE
+├── CITATION.cff
+└── README.md
+```
