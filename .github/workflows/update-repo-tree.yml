@@ -15,9 +15,9 @@ jobs:
       - name: Install tree
         run: sudo apt-get install tree
 
-      - name: Generate repository tree
-        run: |
-          tree -I '.git|__pycache__|*.ipynb_checkpoints' -L 3 > repo_tree.txt
+        - name: Generate repository tree
+          run: |
+            tree -I '.git|__pycache__|*.ipynb_checkpoints|.github|repo_tree.txt' -L 4 > repo_tree.txt
 
       - name: Insert tree into README
         run: |
