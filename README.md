@@ -97,9 +97,3 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
 ## Repository Structure
 
 <!-- repo-tree-start -->
-
-```
-Repository tree will be generated automatically
-```
-
-<!-- repo-tree-end -->
