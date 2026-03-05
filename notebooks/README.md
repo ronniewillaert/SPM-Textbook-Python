@@ -41,6 +41,28 @@ Concept:
 
 [Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch02_tip_sample_interactions/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb)
 
+
+---
+
+### Chapter 3 — AFM Instrumentation and Detection Systems
+
+Notebook 3 — AFM Instrumentation Simulator
+
+Concepts:
+
+• Hooke’s law in AFM  
+• Optical beam deflection (optical lever)  
+• Thermal noise of cantilevers  
+
+Outputs:
+
+• Force–deflection plots  
+• Optical lever sensitivity analysis  
+• Thermal noise simulations  
+
+[Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb)
+
+
 ---
 
 More notebooks will be added progressively as the textbook develops.
