@@ -97,3 +97,24 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
 ## Repository Structure
 
 <!-- repo-tree-start -->
+
+```
+.
+├── CITATION.cff
+├── LICENSE
+├── README.md
+├── binder
+│   └── requirements.txt
+├── notebooks
+│   ├── README.md
+│   ├── part-01-foundations
+│   │   ├── README.md
+│   │   ├── ch01_force_sensor
+│   │   ├── ch02_tip_sample_interactions
+│   │   └── ch03_afm_instrumentation
+│   └── utils
+│       └── README.md
+└── repo_tree.txt
+
+8 directories, 8 files
+```
