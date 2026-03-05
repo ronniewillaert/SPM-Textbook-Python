@@ -17,7 +17,7 @@ jobs:
 
         - name: Generate repository tree
           run: |
-            tree -I '.git|__pycache__|*.ipynb_checkpoints|.github|repo_tree.txt' -L 4 > repo_tree.txt
+            tree -I '.git|__pycache__|.ipynb_checkpoints|.github|repo_tree.txt' -L 4 > repo_tree.txt
 
       - name: Insert tree into README
         run: |
