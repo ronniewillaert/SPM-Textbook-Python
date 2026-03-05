@@ -16,9 +16,9 @@ Each notebook is designed as a standalone executable module including:
 
 | Chapter | Notebook | Concepts | Run |
 |--------|--------|--------|--------|
-| **Chapter 1 — AFM as a Force Sensor** | Force–Deflection and Noise Simulator | Hooke’s law, thermal noise, force sensitivity | [Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch01_force_sensor/AFM_Force_Deflection_Noise.ipynb) |
-| **Chapter 2 — Tip–Sample Interactions** | AFM Force–Distance Simulator | Lennard–Jones forces, Hertz contact, adhesion models | [Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch02_tip_sample_interactions/AFM_Force_Distance_Simulator.ipynb) |
-| **Chapter 3 — AFM Instrumentation** | AFM Instrumentation Simulator | Optical lever detection, cantilever mechanics, thermal noise | [Open in Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb) |
+| **Chapter 1 — AFM as a Force Sensor** | Force–Deflection Simulator | Hooke’s law, thermal noise | [Colab](COLAB_LINK) |
+| **Chapter 2 — Tip–Sample Interactions** | Force–Distance Simulator | Lennard–Jones, Hertz, adhesion | [Colab](COLAB_LINK) |
+| **Chapter 3 — AFM Instrumentation** | Instrumentation Simulator | Optical lever, cantilever mechanics | [Colab](COLAB_LINK) |
 
 ---
 
