@@ -105,13 +105,15 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
     │   ├── ch02_tip_sample_interactions
     │   │   ├── AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
     │   │   └── README.md
-    │   └── ch03_afm_instrumentation
-    │       ├── README.md
-    │       └── SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
+    │   ├── ch03_afm_instrumentation
+    │   │   ├── README.md
+    │   │   └── SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
+    │   └── ch04_afm_scanning_simulator
+    │       └── README.md
     └── utils
         └── README.md
 
-8 directories, 13 files
+9 directories, 14 files
 ```
 <!-- repo-tree-end -->
 
