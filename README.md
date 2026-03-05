@@ -1,54 +1,44 @@
 # Scanning Probe Microscopy — Python Notebooks (Google Colab)
 
-Interactive Python notebooks accompanying the textbook
+This repository contains interactive Python notebooks accompanying the textbook:
 
 **Scanning Probe Microscopy — From Fundamentals to Quantitative Nanomechanics and Single-Cell Analysis**
 
-These notebooks translate key concepts from the textbook into **reproducible simulations, parameter exploration tools, and visualization exercises**.
+The notebooks translate textbook concepts into **interactive simulations, parameter exploration, and visualization tools**.
 
-The notebooks run directly in **Google Colab**, requiring **no local installation**.
+Each notebook:
 
----
-
-## Features
-
-Each notebook is a standalone executable learning module including:
-
-• conceptual reminders  
-• parameterized physical models  
-• interactive exploration with sliders  
-• visualization of nanoscale phenomena  
-• unit checks and order-of-magnitude estimates
+- runs directly in **Google Colab**
+- requires **no local installation**
+- includes **concept reminders**
+- allows **interactive parameter exploration**
 
 ---
 
-# Notebook Structure
+# Part I — Foundations of SPM
 
-## Part I — Foundations of Scanning Probe Microscopy
-
-### Notebook 1 — Force–Deflection and Noise Simulator  
-*(Chapter 1: AFM as a Force Sensor)*
+## Chapter 1 — AFM as a Force Sensor
 
 Concepts:
 
 - Hooke's law in AFM
-- Force sensitivity
 - Thermal noise of cantilevers
+- Force–deflection sensitivity
 
 Outputs:
 
-- Force–deflection plots
+- Force vs deflection plots
 - Thermal noise estimation
 - Order-of-magnitude reasoning
 
-▶ **Run in Colab**
+**Launch notebook**
 
-https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch01_force_sensor/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch01_force_sensor/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb)
 
 ---
 
-### Notebook 2 — AFM Force–Distance Simulation  
-*(Chapter 2: Tip–Sample Interactions)*
+## Chapter 2 — Tip–Sample Interactions
 
 Concepts:
 
@@ -57,23 +47,22 @@ Concepts:
 - Hertz contact mechanics
 - JKR and DMT adhesion models
 - Tabor parameter
-- Hysteresis and energy dissipation
 
 Outputs:
 
-- Approach/retraction force–distance curves
+- Force–distance curves
 - Pull-off force
-- Young's modulus extraction
-- Dissipated energy estimation
+- Young’s modulus extraction
+- Energy dissipation
 
-▶ **Run in Colab**
+**Launch notebook**
 
-https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch02_tip_sample_interactions/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch02_tip_sample_interactions/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb)
 
 ---
 
-### Notebook 3 — AFM Instrumentation Simulator  
-*(Chapter 3: AFM Instrumentation and Detection Systems)*
+## Chapter 3 — AFM Instrumentation and Detection
 
 Concepts:
 
@@ -88,38 +77,13 @@ Outputs:
 - Optical lever sensitivity analysis
 - Thermal noise simulations
 
-▶ **Run in Colab**
+**Launch notebook**
 
-https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb)
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 <!-- repo-tree-start -->
-
-```
-.
-├── CITATION.cff
-├── LICENSE
-├── README.md
-├── binder
-│   └── requirements.txt
-└── notebooks
-    ├── README.md
-    ├── part-01-foundations
-    │   ├── README.md
-    │   ├── ch01_force_sensor
-    │   │   ├── README.md
-    │   │   └── SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
-    │   ├── ch02_tip_sample_interactions
-    │   │   ├── AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
-    │   │   └── README.md
-    │   └── ch03_afm_instrumentation
-    │       ├── README.md
-    │       └── SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
-    └── utils
-        └── README.md
-
-8 directories, 13 files
-```
