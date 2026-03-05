@@ -84,6 +84,27 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
 
 ---
 
+## Chapter 4 — AFM Scanning Simulator (Raster Scan + Feedback Artifacts)
+
+Concepts:
+- Raster scanning (fast/slow axis), pixel dwell time
+- Feedback bandwidth and tracking error
+- Imaging artifacts: lag, edge rounding, overshoot, drift
+- Tip-size effects (proxy)
+
+Outputs:
+- True surface vs measured image
+- Tracking error map
+- Interactive “artifact laboratory” via sliders
+
+---
+
+**Launch notebook**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch04_afm_scanning_simulator/SPM_Ch4_AFM_Scanning_Simulator.ipynb)
+
+
 # Repository Structure
 
 <!-- repo-tree-start -->
