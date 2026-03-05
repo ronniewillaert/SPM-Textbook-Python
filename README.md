@@ -88,28 +88,21 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
 
 <!-- repo-tree-start -->
 
-```
-.
-├── CITATION.cff
-├── LICENSE
-├── README.md
-├── binder
-│   └── requirements.txt
-└── notebooks
-    ├── README.md
-    ├── part-01-foundations
-    │   ├── README.md
-    │   ├── ch01_force_sensor
-    │   │   ├── README.md
-    │   │   └── SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
-    │   ├── ch02_tip_sample_interactions
-    │   │   ├── AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
-    │   │   └── README.md
-    │   └── ch03_afm_instrumentation
-    │       ├── README.md
-    │       └── SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
-    └── utils
-        └── README.md
+<!-- repo-tree-end -->
 
-8 directories, 13 files
-```
+---
+
+# How to use the notebooks
+
+1. Click **Open in Colab**
+2. Run the notebook cells sequentially
+3. Modify parameters using sliders
+4. Explore how AFM physics responds
+
+The notebooks are designed as **interactive companions to the textbook**, not as standalone scripts.
+
+---
+
+# License
+
+MIT License
