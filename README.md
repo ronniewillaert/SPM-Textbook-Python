@@ -121,8 +121,7 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
     ├── part-01-foundations
     │   ├── README.md
     │   ├── ch01_force_sensor
-    │   │   ├── README.md
-    │   │   └── SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
+    │   │   └── README.md
     │   ├── ch02_tip_sample_interactions
     │   │   ├── AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
     │   │   └── README.md
@@ -135,7 +134,7 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
     └── utils
         └── README.md
 
-9 directories, 15 files
+9 directories, 14 files
 ```
 <!-- repo-tree-end -->
 
