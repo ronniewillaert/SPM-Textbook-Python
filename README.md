@@ -21,16 +21,27 @@ Each notebook:
 
 **Exercise 1.8.3.1 — Force–Deflection, Thermal Noise, and Nanoscale Physics in AFM**
 
-Concepts:
-- Hooke's law in AFM (F = k · δ)
-- Thermal noise of cantilevers (δ_RMS = √(k_B T / k))
-- Force–deflection sensitivity
-- Cantilever spring constant trade-offs
+This notebook integrates the key quantitative concepts from Chapter 1 into seven interactive simulations. Students adjust parameters via sliders and immediately observe the effect on force magnitude, resolution limits, tunneling current, thermal noise, and signal-to-noise ratio.
+
+Topics:
+
+- **Hooke's Law in AFM** — Interactive force calculator with force regime classification (Section 1.5)
+- **Abbe's Diffraction Limit** — Why SPM bypasses wavelength-based resolution (Section 1.2)
+- **STM Tunneling Current** — Exponential distance sensitivity enabling atomic resolution (Section 1.3)
+- **Thermal Noise and the Sensitivity–Noise Trade-Off** — Equipartition theorem and cantilever selection (Section 1.5)
+- **Hertz Contact Model** — Estimating cell indentation forces with adjustable modulus, tip radius, and depth (Section 1.6)
+- **Sanity-Check Dashboard** — Order-of-magnitude reasoning against the physical reference table (Table 1.3)
+- **Engineering Insight** — Resolution vs reliability: why higher resolution does not imply higher mechanical accuracy
 
 Outputs:
-- Force vs deflection plots
-- Thermal noise estimation
-- Order-of-magnitude reasoning
+
+- Force vs deflection plots for multiple cantilever stiffnesses
+- Resolution comparison across microscopy techniques (AFM, STED, SIM, optical)
+- Tunneling current decay curves (linear and log scale)
+- Thermal deflection, force noise, and SNR as a function of spring constant
+- Hertz indentation force vs depth and Young's modulus
+- Sanity-check dashboard comparing computed, reported, and thermal forces
+- Trade-off summary table (soft vs stiff cantilevers)
 
 **Launch notebook**
 
