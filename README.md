@@ -17,16 +17,17 @@ Each notebook:
 
 # Part I — Foundations of SPM
 
-## Chapter 1 — AFM as a Force Sensor
+### Chapter 1 — AFM as a Force Sensor
+
+**Exercise 1.8.3.1 — Force–Deflection, Thermal Noise, and Nanoscale Physics in AFM**
 
 Concepts:
-
-- Hooke's law in AFM
-- Thermal noise of cantilevers
+- Hooke's law in AFM (F = k · δ)
+- Thermal noise of cantilevers (δ_RMS = √(k_B T / k))
 - Force–deflection sensitivity
+- Cantilever spring constant trade-offs
 
 Outputs:
-
 - Force vs deflection plots
 - Thermal noise estimation
 - Order-of-magnitude reasoning
