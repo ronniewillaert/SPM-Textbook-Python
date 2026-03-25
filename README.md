@@ -52,20 +52,42 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
 
 ## Chapter 2 — Tip–Sample Interactions
 
-Concepts:
+**Exercise 2.8 — Force–Distance Curves: From Lennard-Jones to Adhesion Mechanics**
 
-- Lennard–Jones interaction
-- Jump-to-contact instability
-- Hertz contact mechanics
-- JKR and DMT adhesion models
-- Tabor parameter
+This notebook integrates the key quantitative concepts from Chapter 2 into eleven interactive simulations. Students adjust parameters via sliders and immediately observe the effect on interaction potentials, surface forces, contact mechanics, adhesion, and force–distance curve behaviour.
+
+Topics:
+
+- **Lennard-Jones Potential & Force** — Pair interaction between neutral atoms with adjustable well depth and equilibrium distance (Section 2.2)
+- **Van der Waals Sphere–Plane Interaction** — Hamaker integration for macroscopic tip–surface forces with tuneable Hamaker constant and tip radius (Section 2.4)
+- **Electrostatic Forces & Debye Screening** — Ion concentration and charge effects on screening length and double-layer forces (Section 2.4)
+- **DLVO Theory** — Combined van der Waals attraction and electrostatic double-layer repulsion with energy barrier visualisation (Section 2.4)
+- **Capillary Forces** — Humidity-dependent adhesion from meniscus formation between tip and surface (Section 2.5)
+- **Jump-to-Contact Instability** — Cantilever stiffness vs interaction gradient, mechanical stability condition, and snap-in distance (Section 2.6)
+- **Contact Mechanics: Hertz, JKR & DMT** — Elastic contact models with adhesion, force–indentation curves, and contact radius comparison (Section 2.7)
+- **Tabor Parameter Classification** — Interactive mapping of material combinations onto the JKR–DMT spectrum (Section 2.7)
+- **Complete Force–Distance Curve Simulation** — Full approach–retract cycle combining vdW forces, contact mechanics, adhesion hysteresis, and cantilever dynamics (Section 2.8)
+- **Bell-Evans Model** — Loading-rate dependence of molecular rupture forces and bond energy landscape (Section 2.8)
+- **Parameter Exploration** — How experimental choices (cantilever stiffness, tip radius, environment) affect measured force curves (Section 2.8)
 
 Outputs:
 
-- Force–distance curves
-- Pull-off force
-- Young’s modulus extraction
-- Energy dissipation
+- Lennard-Jones potential and force curves with tuneable parameters
+- Sphere–plane van der Waals force vs distance for varying Hamaker constant and tip radius
+- Debye screening length and electrostatic force profiles
+- DLVO energy curves showing attractive/repulsive regimes and energy barriers
+- Capillary force as a function of humidity, contact angle, and surface tension
+- Jump-to-contact stability diagrams and snap-in distance predictions
+- Hertz, JKR, and DMT force–indentation curves with contact radius comparison
+- Tabor parameter classification map for common material combinations
+- Simulated approach–retract force–distance curves with hysteresis
+- Bell-Evans rupture force vs loading rate (linear and log scale)
+- Parameter trade-off summary for experimental design
+
+**Launch notebook**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch02_tip_sample_interactions/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb)
+
 
 **Launch notebook**
 
