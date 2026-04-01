@@ -91,22 +91,42 @@ Outputs:
 
 ---
 
-## Chapter 3 — AFM Instrumentation and Detection
+# Chapter 3 — AFM Instrumentation and Detection Systems
 
-Concepts:
+## Exercise 3.9.3 — AFM Instrumentation: From Detection to Measurement
 
-- Cantilever force–deflection behaviour
-- Optical beam deflection (optical lever)
-- Thermal noise of AFM cantilevers
-- Sensitivity of optical detection
+This notebook integrates the key instrumentation concepts from Chapter 3 into ten interactive simulations. Students adjust parameters via sliders and immediately observe the effect on cantilever mechanics, optical detection, piezoelectric scanning, feedback control, thermal noise, and force calibration.
+
+Topics:
+
+- **Cantilever Force–Deflection (Hooke's Law)** — Linear spring model of the AFM cantilever with tuneable stiffness and force sensitivity comparison (Section 3.2)
+- **Optical Lever Amplification** — Geometric amplification of cantilever tilt into measurable laser spot displacement for different detector distances (Section 3.3)
+- **Quadrant Photodiode Detection** — Gaussian laser spot on a four-segment detector with normalized differential signals for vertical and lateral force detection (Section 3.3)
+- **Piezoelectric Scanner Displacement** — Voltage-to-displacement conversion for single-layer and stack actuators with tuneable piezo coefficient (Section 3.4)
+- **Piezoelectric Hysteresis** — Forward and return displacement paths showing positioning errors from hysteresis in open-loop scanners (Section 3.4)
+- **PI Feedback Control** — Proportional–Integral controller tracking a surface step feature with adjustable gains and scan speed (Section 3.5)
+- **Feedback Bandwidth as Low-Pass Filter** — Spatial frequency analysis linking scan speed, feature wavelength, and maximum trackable frequency (Section 3.5)
+- **Thermal Noise of AFM Cantilevers** — Equipartition theorem applied to cantilever fluctuations with minimum detectable force analysis (Section 3.6)
+- **Deflection Sensitivity Calibration** — Complete voltage-to-deflection-to-force calibration chain with error propagation analysis (Section 3.7)
+- **Cantilever Selection for Different Applications** — Parameter trade-off explorer comparing real commercial probes across biological, polymer, hard material, force spectroscopy, and high-speed imaging applications (Section 3.2, 3.6)
 
 Outputs:
 
-- Force–deflection simulations
-- Optical lever sensitivity analysis
-- Thermal noise simulations
+- Force–deflection curves comparing soft and stiff cantilevers
+- Optical lever spot displacement vs tilt angle for varying detector distance
+- Quadrant photodiode response curve showing linear detection range
+- Piezoelectric displacement vs voltage for single-layer and stack actuators
+- Hysteresis loop with positioning error quantification
+- PI feedback step response for low, medium, and high gain settings
+- Bandwidth diagram mapping feature frequency against scan speed
+- Thermal noise histograms with theoretical Gaussian overlay and minimum detectable force
+- Force curve calibration on hard surface with error propagation contour map
+- Cantilever selection dashboard with sensitivity, noise, SNR, and application matching
 
 **Launch notebook**
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb)
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb)
