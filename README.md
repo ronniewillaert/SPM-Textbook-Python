@@ -128,26 +128,44 @@ Outputs:
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb)
 
 ---
+## Chapter 4 — AFM Imaging Modes: From Contact to High-Speed
 
-## Chapter 4 — AFM Scanning Simulator (Raster Scan + Feedback Artifacts)
+### Exercise 4.6.4 — AFM Imaging Modes: Interactive Simulations
 
-Concepts:
-- Raster scanning (fast/slow axis), pixel dwell time
-- Feedback bandwidth and tracking error
-- Imaging artifacts: lag, edge rounding, overshoot, drift
-- Tip-size effects (proxy)
+This notebook integrates key imaging mode concepts from Chapter 4 into ten interactive simulations. Students adjust parameters and observe effects on contact-mode tracking, cantilever dynamics, tapping-mode setpoint selection, phase contrast, FM-AFM frequency shifts, scanning artifacts, tip convolution, and nanomechanical mapping.
 
-Outputs:
-- True surface vs measured image
-- Tracking error map
-- Interactive “artifact laboratory” via sliders
+**Topics Covered:**
 
----
+- **Contact Mode: Constant-Force vs Constant-Height** — Feedback tracking of surface topography with tuneable spring constant, setpoint, bandwidth, and scan speed (Section 4.1)
+- **Driven Damped Harmonic Oscillator** — Cantilever resonance, Q-factor comparison in air versus liquid, and response time trade-offs (Section 4.2.1)
+- **Tapping Mode Amplitude–Distance Curve** — Setpoint ratio selection (gentle vs aggressive), working distance, and interaction regime identification (Section 4.2.2)
+- **Phase Imaging and Energy Dissipation** — Material contrast from phase lag, dissipation mapping with E_diss ∝ A·sin(φ), and amplitude dependence (Section 4.2.3)
+- **FM-AFM Frequency Shift** — Force gradient detection from Lennard-Jones interaction, sensitivity analysis with cantilever stiffness and resonance frequency (Section 4.2.4)
+- **AFM Modes on the Force–Distance Curve** — Mapping contact, tapping, and non-contact modes onto attractive and repulsive interaction regimes (Section 4.2)
+- **Scanning Artifacts and Feedback Bandwidth** — Forward/backward scan comparison, edge rounding, scan-direction asymmetry, and bandwidth limitations (Section 4.4)
+- **Tip Convolution and Geometric Broadening** — Lateral broadening formula w_measured ≈ w + 2√(2Rh), tip radius and feature height dependence (Section 4.4)
+- **QI Mode and PeakForce Tapping** — Hertz model force curves, nanomechanical parameter extraction (stiffness, deformation, adhesion), and spatial mapping (Section 4.3)
+- **AFM Mode Selection Decision Tool** — Interactive scoring and ranking of imaging modes based on sample stiffness, environment, measurement target, and adhesion (Section 4.5)
+
+**Outputs:**
+
+- Constant-force vs constant-height topography and deflection signals
+- Amplitude and phase resonance curves comparing air and liquid environments
+- Amplitude–distance curves with gentle and aggressive setpoint markers
+- Phase contrast and energy dissipation maps for elastic vs viscoelastic materials
+- Lennard-Jones potential, force, force gradient, and FM-AFM frequency shift curves
+- Force–distance curve with contact, tapping, and non-contact operating regions marked
+- Forward and backward scan lines with tracking error diagnostics
+- Tip-convolved profiles with broadening vs tip radius and feature height plots
+- Hertz force–indentation curves with spatial stiffness and deformation maps
+- Mode selection ranking bar chart and property comparison radar
 
 **Launch notebook**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch04_afm_scanning_simulator/SPM_Ch4_AFM_Scanning_Simulator.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch04_afm_imaging_modes/SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb)
+
+---
+
 
 
 # Repository Structure
