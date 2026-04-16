@@ -175,13 +175,14 @@ https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob
     │   │   ├── README.md
     │   │   └── SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
     │   ├── ch04_afm_imaging_modes
-    │   │   └── README.md
+    │   │   ├── README.md
+    │   │   └── SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb
     │   └── ch04_afm_scanning_simulator
     │       └── SPM_Ch4_AFM_Scanning_Simulator.ipynb
     └── utils
         └── README.md
 
-10 directories, 15 files
+10 directories, 16 files
 ```
 <!-- repo-tree-end -->
 
