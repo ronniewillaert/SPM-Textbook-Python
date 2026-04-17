@@ -195,13 +195,14 @@ This notebook integrates key imaging mode concepts from Chapter 4 into ten inter
     │   ├── ch04_afm_imaging_modes
     │   │   ├── README.md
     │   │   └── SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb
-    │   └── ch04_afm_scanning_simulator
-    │       ├── SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb
-    │       └── SPM_Ch4_AFM_Scanning_Simulator.ipynb
+    │   ├── ch04_afm_scanning_simulator
+    │   │   └── SPM_Ch4_AFM_Scanning_Simulator.ipynb
+    │   └── ch05_force_distance_curve_analysis
+    │       └── SPM_Ch5_Force_Distance_Curve_Python_Exercises.ipynb
     └── utils
         └── README.md
 
-10 directories, 17 files
+11 directories, 17 files
 ```
 <!-- repo-tree-end -->
 
