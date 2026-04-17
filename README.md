@@ -166,8 +166,43 @@ This notebook integrates key imaging mode concepts from Chapter 4 into ten inter
 
 ---
 
+## Chapter 5 — Force–Distance Curve Analysis
 
+### Exercise 5.11.3 — Force–Distance Curve Analysis: Interactive Simulations
 
+This notebook integrates key force–distance curve concepts from Chapter 5 into ten interactive simulations. Students adjust parameters and observe effects on curve shape, measurement chain calibration, contact mechanics model selection, parameter extraction, force mapping, and experimental design for biological samples.
+
+**Topics Covered:**
+
+- **Force–Distance Curve: Approach and Retraction** — Interaction regimes (I–VI), jump-to-contact, pull-off, and the effect of cantilever stiffness and adhesion on curve shape (Section 5.1)
+- **The AFM Measurement Chain** — Conversion from raw photodiode voltage to force via sensitivity and spring constant calibration, with error propagation (Section 5.2)
+- **Hysteresis and Energy Dissipation** — Trapezoidal integration of approach–retraction loop area, conservative vs dissipative contributions, and energy in kT units (Section 5.3)
+- **Quantitative Parameter Extraction** — Adhesion force, work of adhesion, contact stiffness, energy dissipation, and indentation from a single force curve (Section 5.4)
+- **Contact Point Detection** — Threshold vs ratio-of-variances (RoV) methods, and how contact-point uncertainty propagates into Young's modulus error (Section 5.6)
+- **Hertz Model Fitting** — Sphere and cone tip geometries, noise effects, fit-range sensitivity, and residual analysis for extracting E* (Section 5.8)
+- **Contact Mechanics Models: Hertz vs JKR vs DMT** — Tabor parameter–based model selection, adhesion regimes, and the impact of model choice on fitted modulus (Section 5.8)
+- **Force Mapping** — From single curve to spatial property maps (topography, adhesion, modulus) on heterogeneous samples using force volume imaging (Section 5.7)
+- **Bacterial Stiffness Measurement** — The 10% indentation rule, cantilever selection, z-piezo partitioning, and iterative measurement design for soft biological samples (Section 5.9)
+- **Speed vs Information Trade-Off** — Sampling density, acquisition time, and precision comparison across Force-Volume, QI/fast force mapping, and PeakForce QNM modes (Section 5.7)
+
+**Outputs:**
+
+- Approach and retraction force–distance curves with labeled interaction regimes
+- Four-step measurement chain (voltage → deflection → force → indentation) with calibration error
+- Force–indentation hysteresis loops with dissipated energy shading
+- Annotated force curves with extracted parameters and contact stiffness gradient
+- Contact point detection comparison (threshold vs RoV) with E* error propagation
+- Hertz model fits with residual plots for sphere and cone geometries
+- Three-model overlay (Hertz/JKR/DMT) with Tabor parameter phase diagram
+- Force volume maps (topography, adhesion, modulus) on a two-phase sample
+- Bacterial indentation curves with z-piezo partition bar charts and pass/fail diagnostics
+- Sampling density comparison histograms and acquisition time estimates
+
+**Launch notebook**
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch05_force_distance_curve_analysis/SPM_Ch5_Force_Distance_Curve_Python_Exercises.ipynb)
+
+---
 # Repository Structure
 
 <!-- repo-tree-start -->
