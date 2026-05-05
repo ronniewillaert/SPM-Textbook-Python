@@ -203,6 +203,37 @@ This notebook integrates key force–distance curve concepts from Chapter 5 into
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch05_force_distance_curve_analysis/SPM_Ch5_Force_Distance_Curve_Python_Exercises.ipynb)
 
 ---
+
+## Chapter 6 — Quantitative Nanomechanics
+
+### Exercise 6.9.3 — Quantitative Nanomechanics: Interactive Simulations
+
+This notebook integrates key contact-mechanics concepts from Chapter 6 into six interactive simulations. Students adjust parameters and observe effects on Hertz fitting, tip-geometry bias, adhesive contact regimes, substrate corrections, modulus mapping of heterogeneous samples, and the statistical comparison of cell populations under mechanical stimulation.
+
+**Topics Covered:**
+
+- **Hertz Model Fitting** — Synthetic force–indentation generation, noise, fit-range sensitivity, residual analysis, and the role of the Poisson ratio in extracting the effective Young's modulus E* (Section 6.1)
+- **Tip Geometry: Hertz vs Sneddon** — Spherical vs conical tip force laws, log–log slope diagnostics, and the systematic bias of fitting with the wrong geometry (Sections 6.2 and 6.4)
+- **Adhesion: Hertz vs JKR vs DMT** — Adhesive contact mechanics, pull-off force, and the Tabor parameter μ as a model-selection criterion across the JKR / transition / DMT regimes (Section 6.3)
+- **Substrate Effects on Thin Samples** — Bottom-Effect Correction (BEC) for finite-thickness layers on rigid substrates, the χ = √(Rδ)/h scaling, and the validity of the 10 % indentation rule (Section 6.5)
+- **Modulus Mapping of a Heterogeneous Sample** — Force-volume imaging on soft/stiff regions, per-pixel Hertz fitting, modulus map reconstruction, and contrast vs noise analysis (Section 6.7)
+- **Biological Case Study: Control vs Stiffened Cells** — Log-normal cell-population sampling, Welch t-test on log-moduli, Mann–Whitney U test, and Cohen's d for mechanobiological comparisons (Section 6.7)
+
+**Outputs:**
+
+- Hertz fits with residual plots, parameter standard errors, and fit-range stability sweeps
+- Hertz vs Sneddon comparison plots with log–log slope diagnostic and local exponent traces
+- Three-model overlay (Hertz / JKR-like / DMT) on adhesive curves with Tabor regime map
+- Thin-sample force curves with BEC stiffening factor and apparent E* vs δ_max bias plots
+- Force-volume modulus maps with bimodal distribution histograms
+- Control vs stiffened cell modulus distributions on log-scale box plots, with t-test and Mann–Whitney p-values and effect sizes (Cohen's d)
+
+**Launch notebook**
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch06_quantitative_nanomechanics/SPM_Ch6_Quantitative_Nanomechanics_Python_Exercises.ipynb)
+
+---
+
 # Repository Structure
 
 <!-- repo-tree-start -->
