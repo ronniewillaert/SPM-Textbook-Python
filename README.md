@@ -230,10 +230,10 @@ This notebook integrates key force–distance curve concepts from Chapter 5 into
     │   ├── ch04_afm_imaging_modes
     │   │   ├── README.md
     │   │   └── SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb
-    │   ├── ch04_afm_scanning_simulator
-    │   │   └── SPM_Ch4_AFM_Scanning_Simulator.ipynb
-    │   └── ch05_force_distance_curve_analysis
-    │       └── SPM_Ch5_Force_Distance_Curve_Python_Exercises.ipynb
+    │   ├── ch05_force_distance_curve_analysis
+    │   │   └── SPM_Ch5_Force_Distance_Curve_Python_Exercises.ipynb
+    │   └── ch06_quantitative_nanomechanics
+    │       └── SPM_Ch6_Quantitative_Nanomechanics_Python_Exercises.ipynb
     └── utils
         └── README.md
 
