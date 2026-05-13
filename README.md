@@ -263,12 +263,14 @@ This notebook integrates key contact-mechanics concepts from Chapter 6 into six 
     │   │   └── SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb
     │   ├── ch05_force_distance_curve_analysis
     │   │   └── SPM_Ch5_Force_Distance_Curve_Python_Exercises.ipynb
-    │   └── ch06_quantitative_nanomechanics
-    │       └── SPM_Ch6_Quantitative_Nanomechanics_Python_Exercises.ipynb
+    │   ├── ch06_quantitative_nanomechanics
+    │   │   └── SPM_Ch6_Quantitative_Nanomechanics_Python_Exercises.ipynb
+    │   └── ch07_single_molecule_force_spectroscopy
+    │       └── README.md
     └── utils
         └── README.md
 
-11 directories, 17 files
+12 directories, 18 files
 ```
 <!-- repo-tree-end -->
 
