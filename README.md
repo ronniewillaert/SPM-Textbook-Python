@@ -234,6 +234,34 @@ This notebook integrates key contact-mechanics concepts from Chapter 6 into six 
 
 ---
 
+## Chapter 7 — Single-Molecule Force Spectroscopy
+
+### Exercise 7.8.4 — Single-Molecule Force Spectroscopy: Interactive Simulations
+
+This notebook integrates the central quantitative tools of single-molecule force spectroscopy (SMFS) into five interactive simulations. Students adjust parameters and observe their effect on entropic polymer stretching, force-driven bond dissociation, multi-barrier energy landscapes, polyprotein unfolding, and the statistical filtering of realistic SMFS datasets.
+
+**Topics Covered:**
+
+- **Worm-Like Chain (WLC) Analysis** — Marko–Siggia force–extension model, fits of persistence length L_p and contour length L_c, and multi-segment fitting of sawtooth unfolding traces (Section 7.5)
+- **Bell–Evans Dynamic Force Spectroscopy** — Inverse-transform sampling of the rupture-force distribution at fixed loading rate, rupture-force histograms across several decades of loading rate, dynamic force spectroscopy (DFS) plot, and extraction of the barrier position x_β and the zero-force off-rate k_off⁰ (Section 7.4)
+- **Multiple Energy Landscapes** — Monte–Carlo rupture simulations for single-barrier, nested double-barrier, and two-species mixture scenarios, with histogram-shape and DFS-plot signatures of multi-pathway dissociation, plus the systematic error of a naive single-barrier fit applied to multi-pathway data (Sections 7.4.6 and 7.7.6)
+- **Protein Unfolding Simulations** — Stochastic constant-velocity unfolding of a modular polyprotein, combining WLC stretching with Bell–Evans unfolding kinetics, robust cantilever–WLC force balance via bracketed root-finding, and the pulling-velocity dependence of the unfolding force F_u (Sections 7.5.4 and 7.6.2)
+- **Statistical Filtering and Uncertainty** — Realistic mixed datasets containing specific ruptures, a minority population, nonspecific adhesion and instrument noise; three filtering strategies (no filter, low-force cut-off, linker-length window); and bootstrap 95 % confidence intervals on F* and on the Bell–Evans parameters (Section 7.7)
+
+**Outputs:**
+
+- Single-segment WLC curves with synthetic data, noisy fits and parameter standard errors, plus a multi-segment sawtooth view of successive WLC segments with extracted ΔL_c
+- Rupture-force histograms across five loading rates spanning 10 pN/s – 10⁵ pN/s, and DFS plots with fitted x_β and k_off⁰ from a linear F* vs ln(r) regression
+- Comparative histograms and DFS plots for single-barrier, nested double-barrier and two-species mixture scenarios, with the naive single-barrier fit overlaid to expose its systematic bias
+- Polyprotein sawtooth force–extension traces with marked unfolding peaks, and the corresponding unfolding-force distribution across 30 independent repeats
+- Filtered rupture-force histograms with bootstrap 95 % CI shaded on F*, plus before/after composition bar charts separating specific, minority and nonspecific events
+
+**Launch notebook**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch07_single_molecule_force_spectroscopy/SPM_Ch7_Single_Molecule_Force_Spectroscopy_Python_Exercises.ipynb)
+
+---
+
 # Repository Structure
 
 <!-- repo-tree-start -->
