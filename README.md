@@ -296,8 +296,9 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   └── ch07_single_molecule_force_spectroscopy
     │       ├── README.md
     │       └── SPM_Ch7_Single_Molecule_Force_Spectroscopy_Python_Exercises.ipynb
+    ├── part-02-imaging-surface-analysis
+    │   └── ch04_afm_imaging_modes
     ├── part-02-imaging_surface_analysis
-    │   ├── ch04_afm_imaging_modes
     │   └── ch05_force_distance_curve_analysis
     ├── part-03-nanomechanics
     │   ├── ch06_quantitative_nanomechanics
@@ -313,7 +314,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-26 directories, 19 files
+26 directories, 20 files
 ```
 <!-- repo-tree-end -->
 
