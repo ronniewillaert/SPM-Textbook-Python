@@ -302,6 +302,8 @@ This notebook integrates the central quantitative tools of single-molecule force
     ├── part-03-nanomechanics
     │   ├── ch06_quantitative_nanomechanics
     │   └── ch07_viscoelasticity_time_dependent_mechanics
+    ├── part-04-molecular-cellular-afm
+    │   └── ch08_biomolecules_and_cells
     ├── part-04-molecular_cellular_afm
     │   ├── ch08_biomolecules_and_cells
     │   ├── ch09_single_molecule_force_spectroscopy
@@ -313,7 +315,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-26 directories, 19 files
+28 directories, 19 files
 ```
 <!-- repo-tree-end -->
 
