@@ -299,10 +299,11 @@ This notebook integrates the central quantitative tools of single-molecule force
     ├── part-02-imaging_surface_analysis
     ├── part-03-nanomechanics
     ├── part-04-molecular_cellular_afm
+    ├── part-05-mechanobiology_computing
     └── utils
         └── README.md
 
-15 directories, 19 files
+16 directories, 19 files
 ```
 <!-- repo-tree-end -->
 
