@@ -1,36 +1,68 @@
 # Python Notebooks — Index (Google Colab)
 
-This folder contains interactive Python notebooks accompanying the textbook  
-**Scanning Probe Microscopy — From Fundamentals to Quantitative Nanomechanics and Single-Cell Analysis**.
+This repository contains interactive Python notebooks accompanying the textbook:
 
-Each notebook is designed as a standalone executable module including:
+Scanning Probe Microscopy — From Fundamentals to Quantitative Nanomechanics and Single-Cell Analysis
 
+---
+
+# Part I — Foundations
+
+| Chapter | Folder | Topics |
+|---|---|---|
+| Chapter 1 — Introduction to AFM | `ch01_introduction_to_afm` | AFM principles, STM vs AFM, resolution |
+| Chapter 2 — Tip–Sample Interactions | `ch02_tip_sample_interactions` | Lennard–Jones, adhesion, Hertz |
+| Chapter 3 — AFM Instrumentation | `ch03_afm_instrumentation` | Cantilevers, optical lever, feedback |
+
+---
+
+# Part II — Imaging and Surface Analysis
+
+| Chapter | Folder | Topics |
+|---|---|---|
+| Chapter 4 — AFM Imaging Modes | `ch04_afm_imaging_modes` | Contact, tapping, non-contact |
+| Chapter 5 — Force–Distance Curve Analysis | `ch05_force_distance_curve_analysis` | Indentation, adhesion, hysteresis |
+
+---
+
+# Part III — Nanomechanics
+
+| Chapter | Folder | Topics |
+|---|---|---|
+| Chapter 6 — Quantitative Nanomechanics | `ch06_quantitative_nanomechanics` | Hertz, Sneddon, JKR, DMT |
+| Chapter 7 — Viscoelasticity | `ch07_viscoelasticity` | Creep, relaxation, rheology |
+
+---
+
+# Part IV — Molecular and Cellular AFM
+
+| Chapter | Folder | Topics |
+|---|---|---|
+| Chapter 8 — Biomolecules and Cells | `ch08_biomolecules_and_cells` | DNA, proteins, cell imaging |
+| Chapter 9 — Single-Molecule Force Spectroscopy | `ch09_single_molecule_force_spectroscopy` | WLC, Bell–Evans |
+| Chapter 10 — Single-Cell Force Spectroscopy | `ch10_single_cell_force_spectroscopy` | Cell adhesion, mechanics |
+| Chapter 11 — FluidFM and Single-Cell Manipulation | `ch11_fluidfm_single_cell_manipulation` | Manipulation, injection |
+
+---
+
+# Part V — Mechanobiology and Computing
+
+| Chapter | Folder | Topics |
+|---|---|---|
+| Chapter 12 — Cellular Mechanics and Cytoskeleton | `ch12_cellular_mechanics_cytoskeleton` | Cytoskeleton, mechanotransduction |
+| Chapter 13 — Signal Processing and Noise Analysis | `ch13_signal_processing_noise_analysis` | FFT, filtering, noise |
+
+---
+
+# How to Use the Notebooks
+
+Each notebook is designed as a standalone executable learning module including:
 - conceptual reminders,
 - parameterized models,
 - visualization tools,
 - unit checks and sanity checks.
 
----
-
-## Part I — Foundations
-
-| Chapter | Notebook | Concepts | Run |
-|--------|--------|--------|--------|
-| **Chapter 1 — AFM as a Force Sensor** | Force–Deflection and Noise Simulator | Hooke’s law, thermal noise | [Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch01_force_sensor/SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb) |
-| **Chapter 2 — Tip–Sample Interactions** | AFM Force–Distance Simulator | Lennard–Jones, Hertz, adhesion | [Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch02_tip_sample_interactions/AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb) |
-| **Chapter 3 — AFM Instrumentation** | AFM Instrumentation Simulator | Optical lever, cantilever mechanics | [Colab](https://colab.research.google.com/github/ronniewillaert/SPM-Textbook-Python/blob/main/notebooks/part-01-foundations/ch03_afm_instrumentation/SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb) |
-
----
-
-### How to use the notebooks
-
-Each notebook is a **stand-alone executable learning module** that accompanies a chapter of the textbook.
-
-They include:
-
-• interactive simulations  
-• parameter exploration using sliders  
-• visualization of nanoscale physical models  
-• unit checks and order-of-magnitude estimates  
-
-The notebooks run directly in **Google Colab** and require **no local installation**.
+The notebooks are intended for:
+- Google Colab,
+- local Jupyter environments,
+- and classroom demonstrations.
