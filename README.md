@@ -307,8 +307,6 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   ├── ch09_single_molecule_force_spectroscopy
     │   ├── ch10_single_cell_force_spectroscopy
     │   └── ch11_fluidfm_single_cell_manipulation
-    ├── part-04-molecular_cellular_afm
-    │   └── ch11_fluidfm_single_cell_manipulation
     ├── part-05-mechanobiology-computing
     │   ├── ch12_cellular_mechanics_cytoskeleton
     │   └── ch13_signal_processing_noise_analysis
@@ -317,7 +315,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-30 directories, 19 files
+28 directories, 19 files
 ```
 <!-- repo-tree-end -->
 
