@@ -310,12 +310,10 @@ This notebook integrates the central quantitative tools of single-molecule force
     ├── part-05-mechanobiology-computing
     │   ├── ch12_cellular_mechanics_cytoskeleton
     │   └── ch13_signal_processing_noise_analysis
-    ├── part-05-mechanobiology_computing
-    │   └── ch13_signal_processing_noise_analysis
     └── utils
         └── README.md
 
-28 directories, 19 files
+26 directories, 19 files
 ```
 <!-- repo-tree-end -->
 
