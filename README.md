@@ -300,12 +300,13 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   ├── ch04_afm_imaging_modes
     │   └── ch05_force_distance_curve_analysis
     ├── part-03-nanomechanics
+    │   └── ch06_quantitative_nanomechanics
     ├── part-04-molecular_cellular_afm
     ├── part-05-mechanobiology_computing
     └── utils
         └── README.md
 
-18 directories, 19 files
+19 directories, 19 files
 ```
 <!-- repo-tree-end -->
 
