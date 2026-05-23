@@ -2,7 +2,7 @@
 
 This repository contains interactive Python notebooks accompanying the textbook:
 
-Scanning Probe Microscopy — From Fundamentals to Quantitative Nanomechanics and Single-Cell Analysis
+Atomic Force Microscopy for Bioengineering — From Fundamentals to Quantitative Nanomechanics and Force Spectroscopy
 
 ---
 
