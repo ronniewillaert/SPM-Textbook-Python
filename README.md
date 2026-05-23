@@ -283,8 +283,8 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   │   ├── AFM_Ch02_TipSampleInteractions.ipynb
     │   │   └── README.md
     │   ├── ch03_afm_instrumentation
-    │   │   ├── README.md
-    │   │   └── SPM_Ch3_AFM_Instrumentation_Python_Exercises.ipynb
+    │   │   ├── AFM_Ch03_AFMInstrumentation.ipynb
+    │   │   └── README.md
     │   ├── ch04_afm_imaging_modes
     │   │   ├── README.md
     │   │   └── SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb
