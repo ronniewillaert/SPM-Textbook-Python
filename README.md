@@ -280,7 +280,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   ├── ch01_introduction_to_afm
     │   │   └── AFM_Ch01_Introduction_to_AFM.ipynb
     │   ├── ch02_tip_sample_interactions
-    │   │   ├── AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
+    │   │   ├── AFM_Ch02_TipSampleInteractions.ipynb
     │   │   └── README.md
     │   ├── ch03_afm_instrumentation
     │   │   ├── README.md
