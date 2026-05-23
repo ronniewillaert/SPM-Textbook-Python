@@ -277,8 +277,6 @@ This notebook integrates the central quantitative tools of single-molecule force
     ├── README.md
     ├── part-01-foundations
     │   ├── README.md
-    │   ├── ch01_force_sensor
-    │   │   └── README.md
     │   ├── ch01_introduction_to_afm
     │   │   └── AFM_Ch01_Introduction_to_AFM.ipynb
     │   ├── ch02_tip_sample_interactions
@@ -314,7 +312,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-27 directories, 19 files
+26 directories, 18 files
 ```
 <!-- repo-tree-end -->
 
