@@ -278,9 +278,9 @@ This notebook integrates the central quantitative tools of single-molecule force
     ├── part-01-foundations
     │   ├── README.md
     │   ├── ch01_force_sensor
-    │   │   ├── README.md
-    │   │   └── SPM_Ch01_Notebook01_ForceDeflection_Noise.ipynb
+    │   │   └── README.md
     │   ├── ch01_introduction_to_afm
+    │   │   └── AFM_Ch01_Introduction_to_AFM.ipynb
     │   ├── ch02_tip_sample_interactions
     │   │   ├── AFM_Force_Distance_LJ_Hertz_Adhesion.ipynb
     │   │   └── README.md
