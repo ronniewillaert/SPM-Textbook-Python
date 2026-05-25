@@ -271,6 +271,7 @@ This notebook integrates the central quantitative tools of single-molecule force
 ├── CITATION.cff
 ├── LICENSE
 ├── README.md
+├── afm_ch03_afminstrumentation.ipynb
 ├── binder
 │   └── requirements.txt
 └── notebooks
@@ -306,7 +307,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-22 directories, 16 files
+22 directories, 17 files
 ```
 <!-- repo-tree-end -->
 
