@@ -285,8 +285,6 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   ├── ch03_afm_instrumentation
     │   │   ├── AFM_Ch03_AFMInstrumentation.ipynb
     │   │   └── README.md
-    │   ├── ch04_afm_imaging_modes
-    │   │   └── README.md
     │   ├── ch06_quantitative_nanomechanics
     │   │   └── SPM_Ch6_Quantitative_Nanomechanics_Python_Exercises.ipynb
     │   └── ch07_single_molecule_force_spectroscopy
@@ -311,7 +309,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-25 directories, 18 files
+24 directories, 17 files
 ```
 <!-- repo-tree-end -->
 
