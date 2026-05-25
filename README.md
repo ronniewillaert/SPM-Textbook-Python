@@ -282,10 +282,8 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   ├── ch02_tip_sample_interactions
     │   │   ├── AFM_Ch02_TipSampleInteractions.ipynb
     │   │   └── README.md
-    │   ├── ch03_afm_instrumentation
-    │   │   ├── AFM_Ch03_AFMInstrumentation.ipynb
-    │   │   └── README.md
-    │   └── ch07_single_molecule_force_spectroscopy
+    │   └── ch03_afm_instrumentation
+    │       ├── AFM_Ch03_AFMInstrumentation.ipynb
     │       └── README.md
     ├── part-02-imaging-surface-analysis
     │   ├── ch04_afm_imaging_modes
@@ -308,7 +306,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-23 directories, 17 files
+22 directories, 16 files
 ```
 <!-- repo-tree-end -->
 
