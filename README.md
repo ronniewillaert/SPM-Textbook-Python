@@ -285,8 +285,6 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   ├── ch03_afm_instrumentation
     │   │   ├── AFM_Ch03_AFMInstrumentation.ipynb
     │   │   └── README.md
-    │   ├── ch06_quantitative_nanomechanics
-    │   │   └── SPM_Ch6_Quantitative_Nanomechanics_Python_Exercises.ipynb
     │   └── ch07_single_molecule_force_spectroscopy
     │       ├── README.md
     │       └── SPM_Ch7_Single_Molecule_Force_Spectroscopy_Python_Exercises.ipynb
@@ -297,6 +295,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     │       └── AFM_Ch05_ForceDistanceAnalysis.ipynb
     ├── part-03-nanomechanics
     │   ├── ch06_quantitative_nanomechanics
+    │   │   └── AFM_Ch06_QuantitativeNanomechanics.ipynb
     │   └── ch07_viscoelasticity
     ├── part-04-molecular-cellular-afm
     │   ├── ch08_biomolecules_and_cells
@@ -309,7 +308,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     └── utils
         └── README.md
 
-24 directories, 17 files
+23 directories, 17 files
 ```
 <!-- repo-tree-end -->
 
