@@ -286,8 +286,8 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   │   ├── AFM_Ch03_AFMInstrumentation.ipynb
     │   │   └── README.md
     │   ├── ch04_afm_imaging_modes
-    │   │   ├── README.md
-    │   │   └── SPM_Ch4_AFM_Imaging_Modes_Python_Exercises.ipynb
+    │   │   ├── AFM_Ch04_ImagingModes.ipynb
+    │   │   └── README.md
     │   ├── ch05_force_distance_curve_analysis
     │   │   └── SPM_Ch5_Force_Distance_Curve_Python_Exercises.ipynb
     │   ├── ch06_quantitative_nanomechanics
