@@ -286,8 +286,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     │   │   ├── AFM_Ch03_AFMInstrumentation.ipynb
     │   │   └── README.md
     │   └── ch07_single_molecule_force_spectroscopy
-    │       ├── README.md
-    │       └── SPM_Ch7_Single_Molecule_Force_Spectroscopy_Python_Exercises.ipynb
+    │       └── README.md
     ├── part-02-imaging-surface-analysis
     │   ├── ch04_afm_imaging_modes
     │   │   └── AFM_Ch04_ImagingModes.ipynb
@@ -300,6 +299,7 @@ This notebook integrates the central quantitative tools of single-molecule force
     ├── part-04-molecular-cellular-afm
     │   ├── ch08_biomolecules_and_cells
     │   ├── ch09_single_molecule_force_spectroscopy
+    │   │   └── AFM_Ch09_SingleMoleculeForceSpectroscopy.ipynb
     │   ├── ch10_single_cell_force_spectroscopy
     │   └── ch11_fluidfm_single_cell_manipulation
     ├── part-05-mechanobiology-computing
